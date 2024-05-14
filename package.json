@@ -1,0 +1,24 @@
+{
+  "name": "lodestar-deposit-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --loader ts-node/esm test.ts"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@chainsafe/bls": "^8.1.0",
+    "@chainsafe/bls-keygen": "^0.4.0",
+    "@lodestar/config": "^1.18.1",
+    "@lodestar/params": "^1.18.1",
+    "@lodestar/state-transition": "^1.18.1",
+    "@lodestar/types": "^1.18.1"
+  }
+}
